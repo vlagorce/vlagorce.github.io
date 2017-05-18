@@ -1,0 +1,84 @@
+# Site settings
+
+baseurl: ""
+
+# Build settings
+source:      .
+destination: ./_site
+plugins_dir: ./_plugin
+markdown: kramdown
+permalink: /:title
+author: "Vincent Lagorce"
+
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - "*.iml"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+languages: ["fr", "de", "it", "en"]
+
+#
+# plugin configuration
+#
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  #- jekyll-redirect-from
+
+collections:
+  pages:
+    output: true
+
+#using Jekyll in safe mode to mimic GitHub Pages
+whitelist:
+ # - jekyll-redirect-from
+
+# Google analytics
+ga_tracking_id: "UA-101350494-1"
+
+#
+# other configuration
+#
+
+git-hub:
+  username: vlagorce
+
+twitter:
+  username: vlagorce
+
+linkedin:
+  username: vlagorce
+
+stack_of:
+  username: vlagorce
+
+email: contact@vlagorce.com
+
+social:
+  name: Vincent Lagorce
+  links:
+    - https://github.com/vlagorce
+    - https://twitter.com/vlagorce
+    - https://stackoverflow.com/story/vlagorce
+    - https://linkedin.com/in/vlagorce
+#
+# i18n configuration
+#
+t:
+  de:
+    language: "Deutsch"
+  en:
+    language: "English"
+  fr:
+    language: "Français"
+  it:
+    language: "Italiano"
+
+github: [metadata]
