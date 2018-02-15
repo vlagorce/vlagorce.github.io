@@ -12,22 +12,35 @@ layout: default
     <h3>{{ page.job-title }}</h3>
 
     <ul>
-        <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a>
+        <li>
+            <a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}">
+                <span class="description">Email</span>
+            </a>
         </li>
 
-        <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin.username }}/{{ page.lcl }}"
-               target="_blank"><span
-                class="description">LinkedIn</span></a></li>
+        <li>
+            <a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin.username }}/{{ page.lcl }}" target="_blank">
+                <span class="description">LinkedIn</span>
+            </a>
+        </li>
 
-        <li><a class="fa fa-2x fa-stack-overflow"
-               href="https://stackoverflow.com/story/{{ site.stack_of.username }}" target="_blank"><span
-                class="description">Stack OF</span></a></li>
+        <li>
+            <a class="fa fa-2x fa-stack-overflow" href="https://stackoverflow.com/story/{{ site.stack_of.username }}" target="_blank">
+                <span class="description">Stack OF</span>
+            </a>
+        </li>
 
-        <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.git-hub.username }}" target="_blank"><span
-                class="description">GitHub</span></a></li>
+        <li>
+            <a class="fa fa-2x fa-github" href="https://github.com/{{ site.git-hub.username }}" target="_blank">
+                <span class="description">GitHub</span>
+            </a>
+        </li>
 
-        <li><a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter.username }}" target="_blank"><span
-                class="description">Twitter</span></a></li>
+        <li>
+            <a class="fa fa-2x fa-twitter" href="https://twitter.com/{{ site.twitter.username }}" target="_blank">
+                <span class="description">Twitter</span>
+            </a>
+        </li>
     </ul>
     {% include lang-bar.html %}
 </div>

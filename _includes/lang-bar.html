@@ -1,10 +1,7 @@
 <div class="languages">
-    {% for lg in site.languages %}
-        {% if page.lcl != lg %}
-            <span>{{ sep }}</span><a href="/{{ lg }}" hreflang="{{ lg }}">{{ site.t[lg].language }}</a>
-            {% assign sep = "|" %}
-        {% endif %}
-    {% endfor %}
+    {% for lg in site.languages %} {% if page.lcl != lg.lang %}
+    <span>{{ sep }}</span> <a href="{{ lg.path }}" hreflang="{{ lg.lang }}">{{ lg.language }}</a>
+    {% assign sep = "|" %} {% endif %} {% endfor %}
 </div>
 
 

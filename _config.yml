@@ -1,13 +1,14 @@
 # Site settings
 
 baseurl: ""
+url: "https://vlagorce.com"
 
 # Build settings
 source:      .
 destination: ./_site
 plugins_dir: ./_plugin
 markdown: kramdown
-permalink: /:title
+permalink: /:lcl/
 author: "Vincent Lagorce"
 
 exclude:
@@ -18,11 +19,23 @@ exclude:
   - "Gemfile.lock"
 
 keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
+# - "CNAME"
+#  - ".git"
+#  - ".gitignore"
 
-languages: ["fr", "de", "it", "en"]
+languages:
+   - lang: 'fr'
+     path: '/'
+     language: 'Français'
+   - lang: 'de'
+     path: '/de/'
+     language: 'Deutsch'
+   - lang: 'it'
+     path: '/it/'
+     language: 'Italiano'
+   - lang: 'en'
+     path: '/en/'
+     language: 'English'
 
 #
 # plugin configuration
@@ -30,7 +43,7 @@ languages: ["fr", "de", "it", "en"]
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-  #- jekyll-redirect-from
+  - jekyll-redirect-from
 
 collections:
   pages:
@@ -38,7 +51,7 @@ collections:
 
 #using Jekyll in safe mode to mimic GitHub Pages
 whitelist:
- # - jekyll-redirect-from
+  - jekyll-redirect-from
 
 # Google analytics
 ga_tracking_id: "UA-101350494-1"
@@ -68,17 +81,3 @@ social:
     - https://twitter.com/vlagorce
     - https://stackoverflow.com/story/vlagorce
     - https://linkedin.com/in/vlagorce
-#
-# i18n configuration
-#
-t:
-  de:
-    language: "Deutsch"
-  en:
-    language: "English"
-  fr:
-    language: "Français"
-  it:
-    language: "Italiano"
-
-github: [metadata]
