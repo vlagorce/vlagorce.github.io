@@ -5,8 +5,8 @@ lang: it_CH
 lcl: it
 
 title: Vincent Lagorce
-description: Vincent Lagorce - Sviluppatore software
+description: Vincent Lagorce - Sviluppatore Software Senior
 
 name: Vincent Lagorce
-job-title: Sviluppatore software
+job-title: Sviluppatore Software Senior
 ---

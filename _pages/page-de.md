@@ -5,8 +5,8 @@ lang: de_CH
 lcl: de
 
 title: Vincent Lagorce
-description: Vincent Lagorce - Softwareentwickler
+description: Vincent Lagorce - Senior Software-Entwicklungsingenieur
 
 name: Vincent Lagorce
-job-title: Softwareentwickler
+job-title: Senior Software-Entwicklungsingenieur
 ---
