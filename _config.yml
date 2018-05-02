@@ -40,7 +40,7 @@ languages:
 #
 # plugin configuration
 #
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
