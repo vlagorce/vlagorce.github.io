@@ -1,6 +1,7 @@
 # Site settings
 
 baseurl: ""
+domain: vlagorce.github.io
 url: "https://vlagorce.com"
 
 # Build settings
@@ -72,7 +73,7 @@ linkedin:
 stack_of:
   username: vlagorce
 
-email: contact@vlagorce.com
+email: vlagorce@gmail.com
 
 social:
   name: Vincent Lagorce
