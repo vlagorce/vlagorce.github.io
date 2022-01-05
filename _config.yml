@@ -5,7 +5,7 @@ domain: vlagorce.github.io
 url: "https://vlagorce.com"
 
 # Build settings
-source:      .
+source: .
 destination: ./_site
 plugins_dir: ./_plugin
 markdown: kramdown
